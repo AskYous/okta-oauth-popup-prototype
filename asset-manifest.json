@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://askyous.github.io/okta-oauth-popup-prototype/build/static/css/main.abd64e84.css",
+    "main.js": "https://askyous.github.io/okta-oauth-popup-prototype/build/static/js/main.87a03242.js",
+    "static/js/787.a142aa1e.chunk.js": "https://askyous.github.io/okta-oauth-popup-prototype/build/static/js/787.a142aa1e.chunk.js",
+    "index.html": "https://askyous.github.io/okta-oauth-popup-prototype/build/index.html",
+    "main.abd64e84.css.map": "https://askyous.github.io/okta-oauth-popup-prototype/build/static/css/main.abd64e84.css.map",
+    "main.87a03242.js.map": "https://askyous.github.io/okta-oauth-popup-prototype/build/static/js/main.87a03242.js.map",
+    "787.a142aa1e.chunk.js.map": "https://askyous.github.io/okta-oauth-popup-prototype/build/static/js/787.a142aa1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.87a03242.js"
+  ]
+}
