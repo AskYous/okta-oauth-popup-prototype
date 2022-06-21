@@ -3,6 +3,7 @@ import './App.css';
 import { LocalStorageInput } from "./LocalStorageInput";
 
 function App() {
+    console.log(process.env)
     const [oktaDomain, setOktaDomain] = useState<string>();
     const [clientId, setClientId] = useState<string>();
     const [accessToken, setAccessToken] = useState<string>();
