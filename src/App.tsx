@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useState } from "react";
 import './App.css';
+import { LocalStorageInput } from "./LocalStorageInput";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [url, setUrl] = useState<string>();
+
+    return <div>
+        <form>
+            <LocalStorageInput placeholder="https://example.okta.com" key="url" onChange={setUrl} />
+            <LocalStorageInput placeholder="Client ID" key="client-id" onChange={setUrl} />
+            <button type="submit">Authenticate</button>
+        </form>
+    </div>;
 }
 
 export default App;
